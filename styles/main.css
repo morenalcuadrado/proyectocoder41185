@@ -1,0 +1,469 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header__logo {
+    width: 150px;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+/* estilos del body con grid*/
+body {
+    background-color: white;
+    color: black;
+}
+section{
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+h1{
+    font-size: 60px;
+    padding: 40px;
+    margin-top: 80px;
+    text-align: left;
+}
+.imgPrincipal{
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 250px;
+    transition: padding 2s, transform 1s;
+}
+
+/* ImagenPrincipal */
+
+.imgPrincipal:hover{
+    transform: scale(0.8);
+    }
+
+/* boton index*/
+
+.btn__tienda:hover{
+    transition: 1.5s;
+    transform: scale(0.9);
+}
+
+.form{
+    width: 600px;
+    height: 200px;
+    margin-left: 400px;
+}
+
+.table__0{
+    background-color: rgb(183, 182, 182);
+    margin-left: 70px;
+}
+
+.table__1{
+    width: 100px;
+    background-color: white;
+}
+
+.button__table{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.div__form{
+    margin: 30px;
+    width: 100px;
+}
+
+.div__text{
+    width: 40px;
+    margin-left: 65px;
+}
+
+.button__compras{
+    margin-top: 5px;
+    background-color: #2183a2;
+    width: 150px;
+    height: 70px;
+}
+
+.h2__compras{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.a__compras{
+    margin-left: 65px;
+}
+
+/* Productos Mouse */
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.producto__lista{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 50px;
+}
+
+.producto__mouse{
+    width: 57%;
+    margin: 60px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+
+.producto__mouse:hover{
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 0.16), 0 3px 6px rgb(0, 0, 0, 0.25);
+    transform: translate(0px, -8px);
+}
+
+.producto__img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.producto__p{
+    text-align: center;
+    color: #949494;
+    padding-top:0 8px;
+}
+
+h4{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+
+
+
+/* Formulario de contacto */
+
+.contenedor__form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+
+.contenedor__form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.contenedor__form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contenedor__form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(42, 42, 42);
+    font-weight: 700;
+
+}
+
+.contenedor__form a i{
+    color: orange;
+    margin-right: 10px;
+}
+
+.contenedor__form form .input__campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.contenedor__form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.contenedor__form .btn__enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: #dbdbdb;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.contenedor__form .btn__enviar:hover{
+    background: #e39403;
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgb(211, 210, 210);
+    color: rgb(9, 9, 9);
+    margin-top: 90px;
+    padding: 2rem 1rem; /* 1rem = 16px ejemplo -> 2rem = 32px */
+}
+
+.footer__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.footer__logo {
+    width: 150px;
+    height: 70px;
+    margin-right: 16px;
+}
+
+.footer__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    border-top: 3px solid rgb(43, 43, 43);
+    padding: 1rem 0;
+    gap: 1rem;
+}
+
+.rrss__logo{
+    width: 20px;
+    transition: padding 2s, transform 1s
+}
+
+.rrss__logo:hover{
+    transform: scale(1.5);
+}
+
+.aqui{
+    color: darkblue;
+}
+
+/*grid de paginas*/
+
+.grid{
+    padding: 1rem;
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img3"
+    "img4 img4"
+    "img5 img5"
+    "img6 img6";
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+.grid__hijo--1 {
+    grid-area: img1;
+    
+}
+.grid__hijo--2 {
+    grid-area: img2;
+    
+}
+.grid__hijo--3 {
+    grid-area: img3;
+    
+}
+.grid__hijo--4 {
+    grid-area: img4;
+    
+}
+.grid__hijo--5 {
+    grid-area: img5;
+    
+}
+.grid__hijo--6 {
+    grid-area: img6;
+    
+}
+
+/* Media query */
+
+@media screen and (max-width: 599px) {
+    /* acá va el código para mobile*/
+
+    /* Pagina index */
+
+    .header{
+        width: 599px;
+        height: 70px;
+    }
+
+    .header__logo{
+        width: 70px;
+    }
+    .nav{
+        display: none;
+    }
+    h1{
+        font-size: 50px;
+        margin: 100px 400px 0px 0px;
+        text-align: center;
+    }
+    .imgPrincipal{
+        margin: 100px 190px 20px;
+        height: 200px;
+        width: 200px;
+    }
+    .p__body{
+        margin-top: 190px;
+        margin-right: 450px;
+        text-align: justify;
+        
+    }
+    /* boton index */
+    .btn__tienda{
+        display: none;
+    }
+
+    .form{
+    margin-left: 90px;
+    width: 420px;
+    }
+
+    /* Formulario de contacto */
+
+    .contenedor__form{
+        width: 70%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        margin-top: 90px;
+    }
+    
+    .contenedor__form h2{
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+    
+    .contenedor__form p{
+        font-size: 17px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+    
+    .contenedor__form a{
+        font-size: 17px;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        margin-bottom: 15px;
+        color: rgb(42, 42, 42);
+        font-weight: 700;
+    
+    }
+    
+    .contenedor__form a i{
+        color: orange;
+        margin-right: 10px;
+    }
+    
+    .contenedor__form form .input__campo, textarea{
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 15px;
+        border: 1px solid #dbdbdb;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 0px;
+    }
+    
+    .contenedor__form form textarea{
+        max-width: 530px;
+        min-width: 200px;
+        min-height: 100px;
+        max-height: 150px;
+    }
+    
+    .contenedor__form .btn__enviar{
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        outline: 0px;
+        background: orange;
+        color: #5d5b5b;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 300ms ease;
+    }
+    
+    .contenedor__form .btn__enviar:hover{
+        background: #b97902;
+    }
+
+
+    /* footer*/
+    footer {
+        width: 599px;
+        height: 150px;
+    }
+
+    .p__footer{
+    display: none;  
+    }
+
+    .footer__logo{
+        width: 100px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 100px);
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6";
+    }
+
+    
+}

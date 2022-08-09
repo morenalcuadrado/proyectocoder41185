@@ -1,0 +1,67 @@
+/* nav bar */
+
+.bg-light{
+    background-color: aqua;
+}
+
+/* Card Productos */
+
+.btn-primary{
+    margin: 20px ;
+}
+
+.card-img-top--2{
+    width: 346px;
+    margin-left: 30px;
+}
+
+/* loging */
+.mb-3{
+    width: 600px;
+    
+}
+
+/* Carro de compras */
+
+.card-img-top--cart1{
+    width: 250px;
+}
+
+.card-img-bottom--cart2{
+    width: 200px;
+}
+
+.card-img-bottom--cart3{
+    width: 250px;
+}
+
+
+@media screen and (max-width: 599px){
+
+    /* Card Productos */
+
+    .card-img-top--1{
+        width: 370px;
+        margin-left: 70px;
+    }
+
+    .card-img-top--2{
+        width: 300px;
+        margin-left: 110px;
+        
+    }
+
+    .card-img-top--3{
+        width: 346px;
+        margin-left: 80px;
+    }
+
+    /* Logion */
+
+    .mb-3{
+        width: 300px;
+    }
+
+}
+
+
