@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<body lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <meta name="author" content="Gustavo Zorrilla" />
+        <link rel="icon" type="image/png" href="/img/favicon.png" sizes="16x16">
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/main.css">
+        <title>Registro</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <img class="header__logo" src="./img/Logo ecommerce.svg"
+                    alt="Logo
+                    de starbucks" width="100" height="100">
+                <a href="#" class="header__icono">
+                    <span class="jam jam-menu"></span>
+                </a>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                            href="../pages/productos.html"
+                            role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Producto
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../pages/productos.html">Producto 1</a></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html">Producto 2</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="../pages/productos.html">Producto 3</a></li>
+                        </ul>
+                    </li>
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="../pages/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="../pages/carrito.html">Carrito</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="../pages/ingresa.html">Login</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search"
+                                placeholder="Buscar" aria-label="Search">
+                        </form>
+                        <button class="btn btn-outline-success"
+                            type="submit">Buscar</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="section">
+            <div class="grid">
+                <div class="grid_hijo grid__hijo--1">
+                    <h1>
+                        Registrate Aqui
+                    </h1>
+                </div>
+                <div class="grid_hijo grid__hijo--2">
+                    <img class="imgPrincipal" src="/img/img_registro.svg"
+                        alt="imagen de una bolsa">
+                </div>
+            </div>
+        </section>
+
+
+        <form action="">
+            <div>
+                <p>Es Rapido y Facil</p>
+            </div>
+
+            <div>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" placeholder="Ingresa tu
+                    nombre">
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="Apellido" placeholder="Ingresa tu
+                    apellido">
+            </div>
+
+            <div>
+                <label for="mail">Correo Electronico</label>
+                <input type="mail" name="mail" id="" placeholder="Ingresa tu
+                    correo">
+            </div>
+
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="#"
+                    placeholder="Ingresa una contraseña">
+            </div>
+
+            <p>Fecha de nacimiento</p>
+            <div>
+                <label for="Dia">Coloca tu fecha</label>
+                <input type="date" name="date">
+            </div>
+
+            <div>
+                <label for="sex">Sexo</label>
+                <select name="Sexo" id="#">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Quieres compartir tus datos?</p>
+                <label for="Datos">Si</label>
+                <input type="radio" name="Datos" value="1">
+                <label for="Datos">No</label>
+                <input type="radio" name="radio" value="2">
+            </div>
+
+            <p>Al hacer clip en Registrate aceptas nuestras Condiciones y
+                politicas </p>
+            <button type="submit">Registrate</button>
+        </form>
+
+
+        <footer class="footer">
+            <div class="grid_hijo grid__hijo--6">
+                <div class="footer__flex">
+                    <p class="p__footer">Derechos reservados - Tienda Online</p>
+                    <p class="p__footer">Mas rapido por:
+                        <a class="aqui" href="../pages/contacto.html" target="">Aquí</a>
+                    </p>
+                    <p class="p__footer"> Correo: contacto@lagrantiendaweb.cl</p>
+                    <p class="p__footer"> Telefono: +56########</p>
+                    <img class="footer__logo" src="/img/Logo ecommerce.svg"
+                        alt="logo de tienda" width="100" height="100">
+                </div>
+                <nav>
+                    <ul class="footer__lista">
+                        <li>
+
+                            <a
+                                href="https://www.instagram.com/colorytecnologia/?hl=es"
+                                target="_blank"> <img class="rrss__logo"
+                                    src="/img/instagram.png" alt="logo
+                                    instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/smartgraphicsspa/"
+                                target="_blank"> <img class="rrss__logo"
+                                    src="/img/facebook.png" alt="Logo de
+                                    Facebooñ"></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://cl.linkedin.com/company/smart-graphic-solutions"
+                                target="_blank"> <img class="rrss__logo"
+                                    src="/img/linkedin.png" alt="Logo de
+                                    Linkedin"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
