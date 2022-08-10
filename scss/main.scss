@@ -1,3 +1,8 @@
-.leo {
-    color: navy;
-}
+@import "partials/variables"; // Siempre van arriba las variables
+@import "partials/_base.scss";
+@import "partials/header";
+@import "partials/body";
+@import "partials/footer";
+@import "partials/grids";
+@import "partials/grids";
+@import "partials/mediaQuerys"; // Siempre al final van las MQ

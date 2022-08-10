@@ -1,0 +1,143 @@
+@media screen and (max-width: 599px) {
+    /* acá va el código para mobile*/
+
+    /* Pagina index */
+
+    .header{
+        width: 599px;
+        height: 70px;
+    }
+
+    .header__logo{
+        width: 70px;
+    }
+    .nav{
+        display: none;
+    }
+    h1{
+        font-size: 50px;
+        margin: 100px 400px 0px 0px;
+        text-align: center;
+    }
+    .imgPrincipal{
+        margin: 100px 190px 20px;
+        height: 200px;
+        width: 200px;
+    }
+    .p__body{
+        margin-top: 190px;
+        margin-right: 450px;
+        text-align: justify;
+        
+    }
+    /* boton index */
+    .btn__tienda{
+        display: none;
+    }
+
+    .form{
+    margin-left: 90px;
+    width: 420px;
+    }
+
+    /* Formulario de contacto */
+
+    .contenedor__form{
+        width: 70%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        margin-top: 90px;
+    }
+    
+    .contenedor__form h2{
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+    
+    .contenedor__form p{
+        font-size: 17px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+    
+    .contenedor__form a{
+        font-size: 17px;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        margin-bottom: 15px;
+        color: rgb(42, 42, 42);
+        font-weight: 700;
+    
+    }
+    
+    .contenedor__form a i{
+        color: orange;
+        margin-right: 10px;
+    }
+    
+    .contenedor__form form .input__campo, textarea{
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 15px;
+        border: 1px solid #dbdbdb;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 0px;
+    }
+    
+    .contenedor__form form textarea{
+        max-width: 530px;
+        min-width: 200px;
+        min-height: 100px;
+        max-height: 150px;
+    }
+    
+    .contenedor__form .btn__enviar{
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        outline: 0px;
+        background: orange;
+        color: #5d5b5b;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 300ms ease;
+    }
+    
+    .contenedor__form .btn__enviar:hover{
+        background: #b97902;
+    }
+
+
+    /* footer*/
+    footer {
+        width: 599px;
+        height: 150px;
+    }
+
+    .p__footer{
+    display: none;  
+    }
+
+    .footer__logo{
+        width: 100px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 100px);
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6";
+    }
+
+    
+}

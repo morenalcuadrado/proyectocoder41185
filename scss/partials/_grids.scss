@@ -1,0 +1,44 @@
+/*grid de paginas*/
+
+.grid{
+    padding: 1rem;
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img3"
+    "img4 img4"
+    "img5 img5"
+    "img6 img6";
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+.grid__hijo--1 {
+    grid-area: img1;
+    
+}
+.grid__hijo--2 {
+    grid-area: img2;
+    
+}
+.grid__hijo--3 {
+    grid-area: img3;
+    
+}
+.grid__hijo--4 {
+    grid-area: img4;
+    
+}
+.grid__hijo--5 {
+    grid-area: img5;
+    
+}
+.grid__hijo--6 {
+    grid-area: img6;
+    
+}
+
+/* Media query */
